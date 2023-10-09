@@ -1,0 +1,54 @@
+.cta{
+  display: block;
+  width: 25ch;
+  padding: 1rem;
+  background-color: #cb9275;
+  border-radius: 1rem;
+}
+
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta:visited,
+.cta:active{
+  color:rgb(221, 253, 232);
+}
+
+.cta:hover{
+  color: #cb9275;
+  background-color: white;
+}
+
+p{
+  font-size: 30px;
+}
+
+header{
+  height: 100vh;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/header-2.jpg"); 
+overflow: hidden;
+}
+
+
+.header-title{
+  padding: 1rem;
+  text-align: center;
+  font-size: 70px;
+  color: #cb9275;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.copy{
+font-size: 17px;
+}
+

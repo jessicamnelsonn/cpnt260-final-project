@@ -1,0 +1,53 @@
+.main-title{
+  color: black;
+}
+
+.main-navigation a:visited{
+  color: black;
+}
+
+
+p{
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+ article:hover{
+  filter: drop-shadow(0 0 2rem hsl(0, 0%, 100%));
+ }
+
+article{
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size:30px;
+  
+  background-color:#ffffff;
+  color: black;
+  
+}
+
+.gallery-title{
+  color: #ffffff;
+  font-size: 40px;
+  padding: 2rem;
+}
+
+  .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    max-width: 100vw;
+  }
+    
+
+  
