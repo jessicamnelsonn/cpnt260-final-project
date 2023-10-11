@@ -1,7 +1,7 @@
 # CPNT 260: Final Project
 Author: Jessica Nelson
 
-[Live site]
+[Live site](https://jessicamnelsonn.github.io/cpnt260-final-project/)
 
 ## Above and Beyond:
 
