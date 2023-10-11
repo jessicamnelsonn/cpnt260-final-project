@@ -1,0 +1,45 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+textarea{
+  width: 30ch;
+  height: 25ch;
+}
+
+.contact-active{
+  box-shadow: 0 10px 20px hsl(20, 95%, 7%), 0 6px 6px hsl(20, 45%, 63%);
+}
+
+/* Label */
+label {
+  display: block;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 1rem;
+  
+}
+
+/* Form */
+form {
+  width: 450px;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  border:3px solid #cb9275;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border: 3px solid white;
+  padding: 1rem;
+}
+
+
+

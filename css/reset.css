@@ -1,6 +1,7 @@
 /* Allow content to touch the edges of the page */
 body {
   margin: 0;
+  line-height: 1.8;
 }
 
 /* Remove default styles from navigation lists */

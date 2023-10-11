@@ -1,11 +1,14 @@
 .cta{
-  display: block;
   width: 25ch;
-  padding: 1rem;
-  background-color: #cb9275;
+  color: #cb9275;
+  background-color: white;
+  border:3px solid #cb9275;
   border-radius: 1rem;
+  margin-top: 4rem;
 }
-
+.home-active{
+  box-shadow: 0 10px 20px hsl(20, 95%, 7%), 0 6px 6px hsl(20, 45%, 63%);
+}
 
 main{
   display: flex;
@@ -18,9 +21,20 @@ main{
   color:rgb(221, 253, 232);
 }
 
+
+.cta-button{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
 .cta:hover{
-  color: #cb9275;
-  background-color: white;
+  color: white;
+  background-color: #cb9275;
+  border:3px solid #ffffff;
 }
 
 p{
@@ -34,21 +48,13 @@ header{
   background-size: cover;
   background-position: center;
   background-image: url("../images/header-2.jpg"); 
-overflow: hidden;
+  overflow: hidden;
 }
-
-
-.header-title{
-  padding: 1rem;
-  text-align: center;
-  font-size: 70px;
-  color: #cb9275;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-
 
 .copy{
 font-size: 17px;
 }
 
+@media screen and (width > 40rem){
+
+}
