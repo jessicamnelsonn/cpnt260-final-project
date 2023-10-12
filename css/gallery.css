@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-.main-title{
-  color: black;
-}
-
-.main-navigation a:visited{
-  color: black;
-}
-
 p{
   font-size: 20px;
   height: 19ch;
@@ -32,10 +24,13 @@ article img {
   box-shadow: 0 10px 20px hsl(20, 45%, 63%), 0 6px 6px hsl(20, 45%, 63%);
  }
 
+
 article{
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
+  margin-bottom: 1rem;
+  
   font-size:30px;
   
   background-color:#ffffff;
@@ -43,27 +38,38 @@ article{
   border:3px solid #cb9275;
   
 }
+
+/* current gallery navigation button highlighted */
 .gallery-active{
   box-shadow: 0 10px 20px hsl(20, 95%, 7%), 0 6px 6px hsl(20, 45%, 63%);
 }
 
+/* Page heading */
 .gallery-title{
-  color: #ffffff;
-  font-size: 40px;
   padding: 2rem;
-}
-  .gallery{display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-    
-  @media screen and (width > 40rem){
-    .gallery{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-    }
-
-  }
-
   
+  font-size: 40px;
+  
+  color: #000000;
+}
+
+.gallery{
+  padding: 1rem;
+}
+
+h2{
+  font-size: 30px;
+  }
+
+  /* Responsive styles for larger screens */
+@media screen and (width > 50rem){
+  .gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+}

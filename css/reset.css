@@ -1,7 +1,10 @@
-/* Allow content to touch the edges of the page */
 body {
-  margin: 0;
+  /* Allow content to touch the edges of the page */
+  margin-top: 0rem;
+  /* Set line-height */
   line-height: 1.8;
+  /* Set font */
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* Remove default styles from navigation lists */

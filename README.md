@@ -6,8 +6,7 @@ Author: Jessica Nelson
 ## Above and Beyond:
 
 I chose the following:
-- 
-  - see lines 
+- Mobile Hamburger Menu Toggle
 
 ## Attributions
 - [Google Fonts](https://fonts.google.com/)
@@ -22,6 +21,5 @@ I chose the following:
    - [Wikipedia Hippopotamus](https://en.wikipedia.org/wiki/Hippopotamus)
    - [Wikipedia Zebra](https://en.wikipedia.org/wiki/Zebra)
    - [Wikipedia Hyena](https://en.wikipedia.org/wiki/Hyena)
-- [UI Ball](https://uiball.com/)
 - [Formspree](https://formspree.io/)
 - [Unsplash](https://unsplash.com/)

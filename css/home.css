@@ -1,46 +1,9 @@
-.cta{
-  width: 25ch;
-  color: #cb9275;
-  background-color: white;
-  border:3px solid #cb9275;
-  border-radius: 1rem;
-  margin-top: 4rem;
-}
-.home-active{
-  box-shadow: 0 10px 20px hsl(20, 95%, 7%), 0 6px 6px hsl(20, 45%, 63%);
+/* Removing all margins from body */
+body{
+  margin: 0rem;
 }
 
-main{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.cta:visited,
-.cta:active{
-  color:rgb(221, 253, 232);
-}
-
-
-.cta-button{
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-}
-
-.cta:hover{
-  color: white;
-  background-color: #cb9275;
-  border:3px solid #ffffff;
-}
-
-p{
-  font-size: 30px;
-}
-
+/* Sizing and arranging header image*/
 header{
   height: 100vh;
   background-repeat: no-repeat;
@@ -51,10 +14,85 @@ header{
   overflow: hidden;
 }
 
+/* current home navigation button highlighted */
+.home-active{
+  box-shadow: 0 10px 20px hsl(20, 95%, 7%), 0 6px 6px hsl(20, 45%, 63%);
+}
+
+/* Call to action container */
+.cta{
+  margin-top: 4rem;
+  width: 25ch;
+  border-radius: 1rem;
+  border:3px solid #cb9275;
+  
+  color: #cb9275;
+  background-color: white;
+}
+
+/* Call to action flexbox*/
+.cta-button{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
+  text-align: center;
+}
+
+/* Call to action font size */
+p{
+  font-size: 20px;
+}
+
+/* Call to action visited and active effect */
+.cta:visited,
+.cta:active{
+  color:rgb(221, 253, 232);
+}
+
+/* Call to action hover colors and styles */
+.cta:hover{
+  border:3px solid #ffffff;
+  
+  color: white;
+  background-color: #cb9275;
+}
+
+/* Main flexbox */
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* Heading 2 styles */
+.heading-2{
+  padding: 1rem;
+  
+  font-size: 30px;
+  text-align: center;
+  
+  color:#210703
+}
+
+/* Copyright information */
 .copy{
 font-size: 17px;
 }
 
-@media screen and (width > 40rem){
 
+
+/* Responsive styles for larger screens */
+@media screen and (width > 50rem){
+ /* */
+ p{
+  font-size: 30px;
+}
+
+ /* */
+ .heading-2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+}
 }
